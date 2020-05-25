@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="scripttiempo.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="skeleton.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <title>Cronometro / Temporizador</title>
+</head>
+<body background="fondo.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <center>
+                    <h1>Cronómetro / Temporizador</h1>
+                </center>
+            </div>
+            <br>
+        </div>
+        <div class="row">
+            <button class="twelve columns" onclick="carga()">CRONÓMETRO</button>
+            <button class="twelve columns" onclick="temporizador()">TEMPORIZADOR</button>
+            <hr>
+        </div>
+        <div class="row">
+            <center id="mostrador">
+                <h2><span id="minutos"></span>: <span id="segundos"></span></h2>
+            </center>
+        </div>
+        <div class="row">
+            <center id="boton">
+
+            </center>
+        </div>
+        <div class="row">
+            <center id="boton2">
+
+            </center>
+        </div>
+    </div>
+    <a href=""></a>
+</body>
+<style>
+    h1{
+            margin-top: 25px;
+        }
+        div {
+            border: 1px solid black;
+            padding: 25px 50px 75px;
+            background-color: white;
+            border-radius: 12px;
+        }
+</style>
+</html>

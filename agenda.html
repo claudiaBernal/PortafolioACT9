@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="skeleton.css">
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Agenda</title>
+
+<script type="text/javascript" src="agenda.js">
+</script>
+
+
+</head>
+<style type="text/css">
+	h1{
+            margin-top: 25px;
+        }
+        div {
+            border: 1px solid black;
+            padding: 25px 50px 75px;
+            background-color: white;
+            border-radius: 12px;
+        }
+</style>
+<body>
+	<body background="fondo.jpg">
+	<div class="container">
+        <div class="row">
+            <center>
+                <h1>PORTAFOLIO</h1>
+                <h5>Claudia Bernal Otero</h5>
+            </center>
+        </div>
+    </div>
+    <br>
+		<div class="container">
+			<div class="twelve columns">
+				<button onclick="nuevoContacto()" class="twelve columns">
+					Agregar Contacto.
+				</button>
+
+				<br>
+
+				<button onclick="verContactos()" class="twelve columns">
+					Ver contactos.
+				</button>
+
+				<br>
+
+				<button onclick="verContacto()" class="twelve columns">
+					Buscar Contactos Por nombre.
+				</button>
+
+				<br>
+
+			</div>
+		</div>
+		<br>
+		<div class="container">
+			<div class="twelve columns">
+				<div id="contactos">
+					
+				</div>
+			</div>
+			<div>
+					<a href="index.html">Página principal</a>
+				</div>
+		</div>
+</body>
+</html>
